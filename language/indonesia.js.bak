@@ -2,20 +2,20 @@ exports.private = () =>{
 	return`Fitur hanya bisa di gunakan di private chat`
 	}
 exports.wait = () => {
-    return `_Wait....Deck....._~`
+    return `⏳ Mohon tunggu sebentar~`
 }
 exports.ok = () => {
-    return `_Done Oke Deck🪀_~`
+    return `✅ Done. Ok desu~`
 }
 
 exports.err = () => {
-    return `Ajg Emror Coeg`
+    return `⚠️ Fitur Sedang Error`
 }
 exports.erorLink = () => {
-    return `Emror Nekopoi Care.com`
+    return `⚠️ Link nya error`
 }
 exports.media = () => {
-    return ` Nyonya Silahkan pilih media yang ingin kamu download`
+    return `Silahkan pilih media yang ingin kamu download`
 }
 exports.replyImg = (prefix, command) => {
     return `Kirim/Reply Foto Dengan Caption ${prefix + command}`
@@ -42,11 +42,11 @@ exports.doneOwner = () => {
 }
 
 exports.groupOnly = () => {
-    return `🪀  Command ini hanya bisa digunakan di dalam grup!`
+    return `👥  Command ini hanya bisa digunakan di dalam grup!`
 }
 
 exports.adminOnly = () => {
-    return `🎭  Admin Only Deck Tau ga?!`
+    return `🙅  Command ini hanya bisa digunakan oleh admin grup!`
 }
 
 exports.nhFalse = () => {
@@ -68,7 +68,7 @@ exports.adminAlready = () => {
 }
 
 exports.botNotAdmin = () => {
-    return `Jadikan bot sebagai admin terlebih dahulu! 🌹`
+    return `Jadikan bot sebagai admin terlebih dahulu! 🙏`
 }
 
 exports.received = (pushname) => {
@@ -85,9 +85,10 @@ exports.notNum = (q) => {
     return `"${q}", bukan angka!`
 }
 exports.menunya = (salam, pushname, botname) =>{
-	return`Hai kak ${pushname} 🪀 selamat ${salam} , 
+	return`Hai kak ${pushname} 👋 selamat ${salam} , 
 saya ${botname}, bot ini adalah Beta Multi-Device Whatsapp. 
-oke beban faham kan ketik command untuk menggunakan bot ini oke🪀      
+Jika kamu menemukan semacam bug atau kesalahan mohon dimaklumi dulu ya, 
+lapor owner agar segera di perbaiki 🙏      
 `
 }
 exports.listMenu = (time, salam, pushname, prefix) => {
